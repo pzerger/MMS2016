@@ -28,3 +28,4 @@ EXPOSE 80 443
 CMD ["nginx", "-g", "daemon off;"]
 
 RUN git clone https://github.com/leeberg/MMS2016.git
+COPY MMS2016/ItProToITScientist/DockerCI/ITProToITScientist - CURRENT /usr/share/nginx/html
