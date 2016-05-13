@@ -25,3 +25,5 @@ RUN ln -sf /dev/stdout /var/log/nginx/access.log \
 EXPOSE 80 443
 
 CMD ["nginx", "-g", "daemon off;"]
+
+RUN git clone https://github.com/leeberg/MMS2016.git
