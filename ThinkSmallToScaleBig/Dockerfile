@@ -29,4 +29,4 @@ CMD ["nginx", "-g", "daemon off;"]
 
 RUN git clone https://github.com/leeberg/MMS2016.git && cd MMS2016/ThinkSmallToScaleBig
 
-COPY ["WebApp_CURRENT", "/usr/share/nginx/html"]
+COPY ["WebApp_Current", "/usr/share/nginx/html"]
