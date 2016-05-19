@@ -16,7 +16,7 @@ sudo docker pull leeberg/thinksmalltoscalebigmms2016:latest
 #############################################
 
 echo "Deploying Container..."
-sudo docker run -d -p 80:80 -i -t --name mms2016demo leeberg/thinksmalltoscalebigmms2016
+sudo docker run -d -p 80:80 -i -t --name mms2016demo leeberg/thinksmalltoscalebigmms2016:latest
 
 #-d for Detached -
 #       A container in detached mode cannot be automatically removed when it stops, this means you cannot use the --rm option with -d option.
