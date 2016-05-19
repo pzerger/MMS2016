@@ -13,6 +13,12 @@ docker run --name wordpress --link mysqlwp:mysql -p 80:80 \
 -d wordpress \
 
 
+
+#
+
+sudo nao docker-compose.yml
+
+
 #After
 #docker-compose.yml
 wordpress:
