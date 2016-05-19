@@ -1,3 +1,5 @@
+
+
 #############################################
 
 echo "Stopping Running Docker Container"
@@ -12,6 +14,9 @@ docker rm -f mms2016demo
 
 echo "Pull Latest Image"
 sudo docker pull leeberg/thinksmalltoscalebigmms2016:latest
+
+#http://tinyurl.com/DOCKERMMS
+
 
 #############################################
 
