@@ -6,3 +6,7 @@ docker pull microsoft/iis:latest
 docker network inspect nat
 
 docker run -itd -p 8080:80 microsoft/iis cmd 
+
+docker ps
+
+docker stop name
