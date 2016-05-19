@@ -6,19 +6,16 @@ docker stop mms2016demo
 #############################################
 
 echo "Remove Image"
-
 docker rm -f mms2016demo
 
 #############################################
 
 echo "Pull Latest Image"
-
-sudo docker pull leeberg/thinksmalltoscalebigmms2016
+sudo docker pull leeberg/thinksmalltoscalebigmms2016:latest
 
 #############################################
 
 echo "Deploying Container..."
-
 sudo docker run -d -p 80:80 -i -t --name mms2016demo leeberg/thinksmalltoscalebigmms2016
 
 #-d for Detached -
