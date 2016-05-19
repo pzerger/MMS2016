@@ -1,1 +1,8 @@
-sudo docker run -p 80:80 --name mms2016demo3 nginx:1.9.15-alpine
+#Best "no bs" getting started blog:
+#https://blogs.msdn.microsoft.com/jcorioland/2016/04/28/getting-started-with-containers-and-docker-on-windows-server-2016-technical-preview-5/
+
+docker pull microsoft/iis:latest
+
+docker network inspect nat
+
+docker run -itd -p 8080:80 microsoft/iis cmd 
